@@ -7,13 +7,6 @@ import { FormGroup, FormControl } from "@angular/forms";
   //styleUrls: [ './app.component.css' ]
 })
 export class CandidateAddComponent {
-  candidateForm = new FormGroup({
-    firstName: new FormControl(""),
-    lastName: new FormControl(""),
-    email: new FormControl(""),
-    gender: new FormControl("")
-  });
-
   addData() {
     console.log();
   }
